@@ -1,0 +1,34 @@
+instrucciones:
+instalar heroku cli
+abrir git bash como terminal de comandos. ir a la carpeta local del proyecto
+npm init
+añadir la parte de engine con la version de node (https://devcenter.heroku.com/articles/deploying-nodejs#prerequisites)
+crear el .gitignore
+crear un repositorio local. eso se hace con heroku cli, usar el programa git gui
+npm install para instlar en la app local las dependencias de package.json
+crear la app local de heroku con heroku local web , funcionará en http://localhost:5000
+git add .
+git commit - m 
+$ heroku login
+Enter your Heroku credentials:
+Email: santiago@shadowdigital.es
+ !    Login is currently incompatible with git bash/Cygwin/MinGW
+esto pasa en git bash pero usando el cmd de toda la vida puedes hacer heroku login
+Microsoft Windows [Versión 10.0.10240]
+(c) 2015 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\pc>cd\bots
+
+C:\bots>cd pedir-cita
+
+C:\bots\pedir-cita>heroku login
+Enter your Heroku credentials:
+Email: santiago@shadowdigital.es
+Password: ********
+Logged in as santiago@shadowdigital.es
+
+C:\bots\pedir-cita>heroku create
+Creating app... done, shielded-chamber-47260
+https://shielded-chamber-47260.herokuapp.com/ | https://git.heroku.com/shielded-chamber-47260.git
+
+C:\bots\pedir-cita>
